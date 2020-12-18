@@ -1,5 +1,6 @@
 @import '../scss/reset.scss';
 @import '../scss/header.scss';
+@import '../scss/description.scss';
 @import '../scss/mailing.scss';
 @import '../scss/footer.scss';
 html {
@@ -63,59 +64,7 @@ body {
         background-color: black;
         color: white;
         padding: 10px 20px;
-    }
-    &__text {
-        display: flex;
-        padding: 0px 50px;
-    }
-    &__description {
-        flex: 0 0 50%;
-        height: 100px;
-        overflow: hidden;
-        position: relative;
-        font-family: 'Gilroy Medium';
-        margin-right: 20px;
-        margin-bottom: 20px;
-        &:before {
-            content:'';
-            width:100%;
-            height:100%;    
-            position:absolute;
-            left:0;
-            top:0;
-            background:linear-gradient(transparent -90px, white);
-            pointer-events: none;
         }
-        &--show {
-            height: auto;
-            &:before {
-                background: none;
-            }
-        }
-    }
-    &__more {
-        cursor: pointer;
-        position: absolute;
-        bottom: 5px;
-        &--hide {
-            display: none;
-        }
-    }
-    &__icons {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 220px;
-    }
-    &__icon {
-        flex: 0 0 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 10px;
-        justify-content: space-between;
-        height: 100px;
-    }
 }
 @media (max-width: 900px) {
     .filter {
@@ -126,12 +75,6 @@ body {
         }
         &__element {
             flex: 0 0 50%;
-        }
-        &__description {
-            flex: initial;
-        }
-        &__text {
-            flex-direction: column;
         }
     }
 }
