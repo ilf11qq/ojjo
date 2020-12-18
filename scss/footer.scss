@@ -86,3 +86,8 @@
         align-items: center;
     }
 }
+@media (max-width: 450px) {
+    .footer__column h2 {
+        font-size: 14px;
+    }
+}

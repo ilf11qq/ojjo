@@ -35,7 +35,6 @@
             font-style: normal;
             font-size: 18px;
             line-height: 1.2;
-            letter-spacing: 0.1;
             text-transform: uppercase;
             text-decoration: none;
             color: white;
@@ -88,6 +87,7 @@
 }
 .header {
     align-self: normal;
+    background-color: black;
 }
 .filter {
     padding: 100px 0px;
@@ -388,10 +388,5 @@
                 padding: 0px;
             }
         }
-    }
-}
-@media (max-width: 450px) {
-    .footer__column h2 {
-        font-size: 14px;
     }
 }
