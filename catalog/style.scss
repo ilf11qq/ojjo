@@ -55,6 +55,9 @@ body {
         align-items: center;
         margin-bottom: 20px;
         transition: .3s;
+        img, p {
+            margin-bottom: 15px;
+        }
         &:hover {
             transform: scale(1.05);
         }
@@ -82,6 +85,7 @@ body {
     .filter__menu {
         select {
             flex: 0 0 50%;
+            font-size: 14px;
         }
     }
     .filter__element {
@@ -91,3 +95,4 @@ body {
 .footer {
     flex: 0 0 auto;
 }
+
