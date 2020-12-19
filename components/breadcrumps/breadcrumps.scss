@@ -1,0 +1,29 @@
+.breadcrumps {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    &__items {
+        display: flex;
+    }
+    &__item {
+        font-family: 'Gilroy Medium';
+        font-size: 14px;
+        line-height: 1.5;
+        color: black;
+        a {
+            color: inherit;
+        }
+        &:not(:last-child) {
+            margin-right: 10px;
+            &::after {
+                content: '/';
+                margin-left: 10px;
+            }
+        }
+    }
+}
+@media (max-width: 500px) {
+    .breadcrumps__item {
+        font-size: 10px;
+    }
+}

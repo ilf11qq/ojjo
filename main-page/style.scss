@@ -1,7 +1,7 @@
-@import '../scss/reset.scss';
-@import '../scss/header.scss';
-@import '../scss/mailing.scss';
-@import '../scss/footer.scss';
+@import '../components/reset.scss';
+@import '../components/header/header.scss';
+@import '../components/mailing/mailing.scss';
+@import '../components/footer/footer.scss';
 .container {
     max-width: 1110px;
     margin: 0 auto;
@@ -9,7 +9,7 @@
     height: 100%;
 }
 .first-page {
-    background: url('media/main-background.png') no-repeat;
+    background: url('media/main-background.png') center no-repeat;
     background-size: cover;
     color: white;
     height: 100vh;
