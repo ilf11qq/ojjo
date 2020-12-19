@@ -1,0 +1,86 @@
+[
+    {
+        "link": "../product/index.html",
+        "img": "media/catalog-default.png",
+        "img-alt": "Подвеска",
+        "subtitle": "Подвеска",
+        "title": "Dolce & Gabanna",
+        "price": "175000",
+        "who": "woman",
+        "collection": "2",
+        "season": "winter",
+        "event": "some"
+    },
+    {
+        "link": "../product/index.html",
+        "img": "media/catalog-default.png",
+        "img-alt": "Подвеска",
+        "subtitle": "Подвеска",
+        "title": "Dolce & Gabanna",
+        "price": "175000",
+        "who": "woman",
+        "collection": "2",
+        "season": "winter",
+        "event": "some"
+    },
+    {
+        "link": "../product/index.html",
+        "img": "media/catalog-default.png",
+        "img-alt": "Подвеска",
+        "subtitle": "Подвеска",
+        "title": "Dolce & Gabanna",
+        "price": "130",
+        "who": "woman",
+        "collection": "1",
+        "season": "summer",
+        "event": "some"
+    },
+    {
+        "link": "../product/index.html",
+        "img": "media/catalog-default.png",
+        "img-alt": "Подвеска",
+        "subtitle": "Подвеска",
+        "title": "Dolce & Gabanna",
+        "price": "123",
+        "who": "woman",
+        "collection": "1",
+        "season": "winter",
+        "event": "some"
+    },
+    {
+        "link": "../product/index.html",
+        "img": "media/catalog-default.png",
+        "img-alt": "Подвеска",
+        "subtitle": "Подвеска",
+        "title": "Dolce & Gabanna",
+        "price": "10",
+        "who": "man",
+        "collection": "2",
+        "season": "summer",
+        "event": "some"
+    },
+    {
+        "link": "../product/index.html",
+        "img": "media/catalog-default.png",
+        "img-alt": "Подвеска",
+        "subtitle": "Подвеска",
+        "title": "Dolce & Gabanna",
+        "price": "17500",
+        "who": "woman",
+        "collection": "1",
+        "season": "winter",
+        "event": "some"
+    },
+    {
+        "link": "../product/index.html",
+        "img": "media/catalog-default.png",
+        "img-alt": "Подвеска",
+        "subtitle": "Подвеска",
+        "title": "Dolce & Gabanna",
+        "price": "1750",
+        "who": "man",
+        "collection": "2",
+        "season": "winter",
+        "event": "what"
+    }
+]
