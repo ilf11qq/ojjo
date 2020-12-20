@@ -9,7 +9,7 @@
     height: 100%;
 }
 .first-page {
-    background: url('media/main-background.png') center no-repeat;
+    background: url('media/main-background.jpg') center no-repeat;
     background-size: cover;
     color: white;
     height: 100vh;
@@ -178,7 +178,7 @@
 }
 .recommendation {
     padding: 100px 190px;
-    background: url('media/grid-background.png');
+    background: url('media/grid-background.jpg');
     &__wrapper {
         display: flex;
         flex-direction: column;
